@@ -1,0 +1,22 @@
+# Core LangChain (latest 0.3.x series)
+langchain==0.3.3
+langchain-community==0.3.2
+
+# Official Ollama client (instead of langchain-ollama)
+ollama==0.3.0
+
+# Models & embeddings
+sentence-transformers==2.7.0
+transformers>=4.39.0,<4.45.0
+torch==2.2.2
+faiss-cpu==1.8.0.post1
+
+# Utils
+tiktoken>=0.7.0
+python-dotenv>=1.0.1
+
+# Evaluation
+ragas>=0.1.9
+
+# Numpy compatibility
+numpy<2

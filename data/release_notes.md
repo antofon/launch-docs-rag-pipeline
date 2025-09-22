@@ -1,0 +1,1 @@
+We added Breakout Rooms to live classes. Teachers can assign learners to rooms and broadcast announcements. Refund policy unchanged; if a session is cancelled by the teacher, standard credit applies within 7 business days. Students cannot assign themselves to rooms. Breakout Rooms end when the teacher closes them. Available for live classes with more than 5 students.

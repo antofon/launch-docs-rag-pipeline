@@ -1,0 +1,43 @@
+Breakout Rooms in Live Classes
+
+2025-09
+
+Agents
+
+AI ingestion
+
+Breakout Rooms is a new feature added to live classes on our platform. This feature allows teachers to divide learners into smaller groups (rooms) during live sessions, enabling more focused and interactive discussions.
+
+- Teachers can now assign learners to Breakout Rooms during live classes.
+
+- Teachers can broadcast announcements to all rooms or specific ones.
+
+- Students cannot assign themselves to rooms.
+
+- Breakout Rooms end when the teacher closes them.
+
+1. During a live class, teachers have the option to create Breakout Rooms.
+
+2. Teachers can assign learners to these rooms as needed.
+
+3. Once in their assigned room, students can collaborate and discuss topics with their peers.
+
+4. Teachers can join individual rooms or broadcast announcements to all rooms.
+
+5. The teacher closes the Breakout Rooms when they are done.
+
+- Group discussions and brainstorming sessions
+
+- Collaborative problem-solving activities
+
+- Peer tutoring and study groups
+
+- Available for live classes with more than 5 students.
+
+- Teachers cannot assign themselves to Breakout Rooms.
+
+- If a teacher cancels a session, families receive standard credit within 7 business days. Credits are non-transferable and cannot be redeemed for cash.
+
+- Do not request personal contact info (email, phone, address) from minors. All communication is via the parent/guardian account and official channels.
+
+Previously, our live classes did not support breakout functionality.
