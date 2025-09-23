@@ -1,4 +1,4 @@
-# 04_eval_mistral.py
+# 04_eval.py
 import re, json
 from pathlib import Path
 import ollama

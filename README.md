@@ -96,7 +96,7 @@ Put your raw notes in `data/release_notes.md`
 
 Run:
 ```bash
-python 01_refine_docs_mistral.py
+python 01_refine_docs.py
 ```
 
 Outputs:
@@ -110,7 +110,7 @@ If parsing fails, the script prints a truncated raw model output so you can see 
 ### 2) Build index (make it searchable with FAISS)
 
 ```bash
-python 02_build_index_mistral.py
+python 02_build_index.py
 ```
 
 What happens:
@@ -127,7 +127,7 @@ What happens:
 ### 3) Q&A with safety & citations
 
 ```bash
-python 03_query_mistral.py
+python 03_query.py
 ```
 
 You’ll get:
@@ -150,7 +150,7 @@ Flow:
 ### 4) Evaluate (light checks)
 
 ```bash
-python 04_eval_mistral.py
+python 04_eval.py
 ```
 
 Outputs:
@@ -191,7 +191,7 @@ Heavier models may be slower on CPU; `mistral` is a great default.
 
 - **`python3` runs system Python** → your shell may alias it. Use the venv binary:
   ```bash
-  .venv/bin/python 01_refine_docs_mistral.py
+  .venv/bin/python 01_refine_docs.py
   ```
   or verify:
   ```bash
@@ -227,10 +227,10 @@ pip install -r requirements.txt
 ollama pull mistral
 
 # every update
-python 01_refine_docs_mistral.py
-python 02_build_index_mistral.py
-python 03_query_mistral.py
-python 04_eval_mistral.py
+python 01_refine_docs.py
+python 02_build_index.py
+python 03_query.py
+python 04_eval.py
 ```
 
 ---
@@ -283,14 +283,14 @@ init:
 	. $(VENV)/bin/activate && pip install --upgrade pip && pip install -r requirements.txt
 
 refine:
-	$(PY) 01_refine_docs_mistral.py
+	$(PY) 01_refine_docs.py
 
 index:
-	$(PY) 02_build_index_mistral.py
+	$(PY) 02_build_index.py
 
 ask:
-	$(PY) 03_query_mistral.py
+	$(PY) 03_query.py
 
 eval:
-	$(PY) 04_eval_mistral.py
+	$(PY) 04_eval.py
 ```

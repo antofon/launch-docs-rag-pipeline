@@ -6,13 +6,13 @@ init:
 	. $(VENV)/bin/activate && pip install --upgrade pip && pip install -r requirements.txt
 
 refine:
-	$(PY) 01_refine_docs_mistral.py
+	$(PY) 01_refine_docs.py
 
 index:
-	$(PY) 02_build_index_mistral.py
+	$(PY) 02_build_index.py
 
 ask:
-	$(PY) 03_query_mistral.py
+	$(PY) 03_query.py
 
 eval:
-	$(PY) 04_eval_mistral.py
+	$(PY) 04_eval.py
